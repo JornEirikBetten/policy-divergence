@@ -1,0 +1,15 @@
+jax 
+jaxlib
+jax[cuda]
+pgx 
+pandas 
+matplotlib 
+seaborn 
+numpy 
+omegaconf 
+pydantic 
+wandb 
+dm-haiku
+flax 
+distrax
+chex 

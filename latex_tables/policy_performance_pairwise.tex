@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+\centering
+\caption{Pairwise Comparisons: Policy Performance (t-test)}
+\label{tab:policy_performance_pairwise}
+\begin{tabular}{llrrrrr}
+\toprule
+Environment & Comparison & $\mu_1$ & $\mu_2$ & $t$ & $p$ & Cohen's $d$ \\
+\midrule
+\multirow{3}{*}{Asterix} & DWDI vs DWSI & 67.58 & 67.82 & -0.73 & 0.465 & -0.07 \\
+ & DWDI vs SWDI & 67.58 & 68.11 & -1.62 & 0.106 & -0.16 \\
+ & DWSI vs SWDI & 67.82 & 68.11 & -0.89 & 0.373 & -0.09 \\
+\midrule
+\multirow{3}{*}{Breakout} & DWDI vs DWSI & 520.00 & 521.29 & -0.18 & 0.860 & -0.02 \\
+ & DWDI vs SWDI & 520.00 & 473.44 & 5.43 & < 0.001*** & 0.54 \\
+ & DWSI vs SWDI & 521.29 & 473.44 & 6.15 & < 0.001*** & 0.61 \\
+\midrule
+\multirow{3}{*}{Freeway} & DWDI vs DWSI & 68.78 & 68.78 & 0.18 & 0.854 & 0.02 \\
+ & DWDI vs SWDI & 68.78 & 68.83 & -4.31 & < 0.001*** & -0.43 \\
+ & DWSI vs SWDI & 68.78 & 68.83 & -4.68 & < 0.001*** & -0.47 \\
+\midrule
+\multirow{3}{*}{Seaquest} & DWDI vs DWSI & 155.40 & 156.97 & -2.84 & 0.005** & -0.28 \\
+ & DWDI vs SWDI & 155.40 & 154.91 & 0.85 & 0.399 & 0.08 \\
+ & DWSI vs SWDI & 156.97 & 154.91 & 3.63 & < 0.001*** & 0.36 \\
+\midrule
+\multirow{3}{*}{Space Invaders} & DWDI vs DWSI & 793.11 & 789.19 & 0.43 & 0.670 & 0.04 \\
+ & DWDI vs SWDI & 793.11 & 801.57 & -0.82 & 0.411 & -0.08 \\
+ & DWSI vs SWDI & 789.19 & 801.57 & -1.31 & 0.192 & -0.13 \\
+
+\bottomrule
+\end{tabular}
+\\[0.5em]
+\small{$^*p < 0.05$, $^{**}p < 0.01$, $^{***}p < 0.001$}
+\end{table}

@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+\centering
+\caption{Pairwise Comparisons: Feature Similarity (t-test)}
+\label{tab:feature_similarity_pairwise}
+\begin{tabular}{llrrrrr}
+\toprule
+Environment & Comparison & $\mu_1$ & $\mu_2$ & $t$ & $p$ & Cohen's $d$ \\
+\midrule
+\multirow{3}{*}{Asterix} & different-world vs different-world-same-init & 0.22 & 0.34 & -26.53 & < 0.001*** & -2.72 \\
+ & different-world vs same-world & 0.22 & 0.24 & -2.23 & 0.026* & -0.23 \\
+ & different-world-same-init vs same-world & 0.34 & 0.24 & 29.17 & < 0.001*** & 2.99 \\
+\midrule
+\multirow{3}{*}{Breakout} & different-world vs different-world-same-init & 0.24 & 0.28 & -11.54 & < 0.001*** & -1.18 \\
+ & different-world vs same-world & 0.24 & 0.23 & 4.19 & < 0.001*** & 0.43 \\
+ & different-world-same-init vs same-world & 0.28 & 0.23 & 15.54 & < 0.001*** & 1.59 \\
+\midrule
+\multirow{3}{*}{Freeway} & different-world vs different-world-same-init & 0.49 & 0.57 & -28.03 & < 0.001*** & -2.88 \\
+ & different-world vs same-world & 0.49 & 0.47 & 4.92 & < 0.001*** & 0.50 \\
+ & different-world-same-init vs same-world & 0.57 & 0.47 & 34.83 & < 0.001*** & 3.57 \\
+\midrule
+\multirow{3}{*}{Seaquest} & different-world vs different-world-same-init & 0.17 & 0.18 & -0.34 & 0.736 & -0.03 \\
+ & different-world vs same-world & 0.17 & 0.17 & 0.41 & 0.681 & 0.04 \\
+ & different-world-same-init vs same-world & 0.18 & 0.17 & 0.75 & 0.451 & 0.08 \\
+\midrule
+\multirow{3}{*}{Space Invaders} & different-world vs different-world-same-init & 0.24 & 0.28 & -7.14 & < 0.001*** & -0.73 \\
+ & different-world vs same-world & 0.24 & 0.22 & 2.32 & 0.021* & 0.24 \\
+ & different-world-same-init vs same-world & 0.28 & 0.22 & 9.22 & < 0.001*** & 0.95 \\
+
+\bottomrule
+\end{tabular}
+\\[0.5em]
+\small{$^*p < 0.05$, $^{**}p < 0.01$, $^{***}p < 0.001$}
+\end{table}

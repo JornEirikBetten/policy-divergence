@@ -1,0 +1,16 @@
+env_name,policy_type,mean_rewards,std_rewards
+minatar-asterix,different-world,113.96289,70.98472
+minatar-asterix,same-world,113.92871,77.433334
+minatar-asterix,different-world-same-init,110.10156,72.029526
+minatar-breakout,different-world,1258.9375,1284.8473
+minatar-breakout,same-world,1135.9023,1088.4075
+minatar-breakout,different-world-same-init,1127.0293,1071.1622
+minatar-freeway,different-world,69.43652,2.506607
+minatar-freeway,same-world,69.456055,2.0893195
+minatar-freeway,different-world-same-init,69.51758,2.2442818
+minatar-seaquest,different-world,186.00586,80.093636
+minatar-seaquest,same-world,174.46289,81.09578
+minatar-seaquest,different-world-same-init,186.64844,77.9932
+minatar-space_invaders,different-world,2073.3096,1997.5056
+minatar-space_invaders,same-world,1781.8838,1805.6538
+minatar-space_invaders,different-world-same-init,1814.5879,1725.3635

@@ -1,0 +1,6 @@
+env_name,mean_rewards,std_rewards
+minatar-asterix,113.12598,70.9186
+minatar-breakout,2345.5674,2432.9844
+minatar-freeway,69.85547,1.936141
+minatar-seaquest,189.74805,80.71782
+minatar-space_invaders,2104.1543,1925.5769
